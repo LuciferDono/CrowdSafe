@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Environment
+.env
+venv/
+.venv/
+
+# Database
+instance/
+
+# Uploads & recordings (large video files)
+uploads/
+recordings/
+
+# YOLO models (large binaries)
+models/*.pt
+
+# Logs
+logs/
+*.log
+app_output.log
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+*.swo
+Thumbs.db
+.DS_Store
+
+# Hidden tool directories
+.c*de/
+
+# Generated artifacts
+SRS.pdf
+nul
